@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    /* border: 1px solid black;  DELETE WHEN DONE */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -46,6 +47,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/********* CSS RESET END *********/
 
 * {
     box-sizing: border-box;
@@ -54,7 +56,28 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    border: 1px solid black;
+}
+
+header {
+    width: 67%;
+    margin-left: 29%;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+button {
+    border: none;
+    background-color: white;
+}
+button a {
+    color: black;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5 {
@@ -74,6 +97,10 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.top-img {
+    margin-bottom: 2%;
 }
 
 .top-content {
