@@ -22,7 +22,6 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-    /* border: 1px solid black;  DELETE WHEN DONE */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -71,6 +70,7 @@ header nav {
     font-size: 14px;
 }
 button {
+    padding-top: 3%;
     border: none;
     background-color: white;
 }
@@ -96,7 +96,7 @@ p {
 }
 
 .top-img {
-    margin-bottom: 2%;
+    margin: 2% 0;
 }
 
 .top-content {
@@ -252,7 +252,7 @@ p {
 
 /****** ABOUT SECTION STYLES ******/
 .bg-img {
-    margin-bottom: 2%;
+    margin: 2% 0;
 }
 
 .about-paragraph p {
@@ -265,6 +265,7 @@ p {
     border: 2px solid #4f4f4f;
     border-radius: 12%;
     padding: 1% 3%;
+    margin-bottom: 2%;
 }
 
 /**** MIDDLE TOP SECTION ****/
@@ -303,11 +304,15 @@ p {
     padding-bottom: 3%;
 }
 
+/**** BOTTOM PARAGRAPH SECTION ****/
+.bottom-paragraph {
+    padding: 4% 0;
+}
+
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -316,7 +321,6 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
